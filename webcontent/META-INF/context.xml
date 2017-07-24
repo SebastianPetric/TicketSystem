@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<Resource name="jdbc/kartenverkauf" auth="Container"
+		type="javax.sql.DataSource" username="root" password=""
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/kartenverkauf" maxActive="99" maxIdle="10" removeAbandoned="true" removeAbandonedTimeout="300" logAbandoned="true"/>
+</Context>
